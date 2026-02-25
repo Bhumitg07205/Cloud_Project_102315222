@@ -1,6 +1,6 @@
 // Ensure dotenv is loaded first - this MUST be loaded before any other imports
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({ override: true });
 
 // Validate required environment variables
 const requiredEnvVars = [
